@@ -1,8 +1,6 @@
 cd
-echo "Checking for updates..."
+echo "Checking for and Applying any available upgrades......"
 sudo apt update && sudo apt upgrade -y
-echo "Applying any available upgrades..."
-sudo apt upgrade -y
 echo "Installing dependencies..."
 sudo apt install build-essential libboost-dev libssl-dev -y
 echo "Cloning Git Repo..."
