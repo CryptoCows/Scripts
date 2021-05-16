@@ -1,6 +1,6 @@
 cd
 echo "Checking for updates..."
-sudo apt update
+sudo apt update && sudo apt upgrade -y
 echo "Applying any available upgrades..."
 sudo apt upgrade -y
 echo "Installing dependencies..."
